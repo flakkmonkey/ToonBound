@@ -1,64 +1,47 @@
-Dress Up App README
-The Dress Up App is a Python program that allows you to dress up characters with outfits, hairstyles, and accessories. This README provides instructions on how to run and use the Dress Up App.
+# ToonBound Dress-Up App
 
-Prerequisites
-Before using the Dress Up App, ensure that you have the following prerequisites:
+## Description
+ToonBound is a dress-up application that allows users to create and customize characters by selecting outfits, hairstyles, and accessories. This Python application utilizes the PIL (Python Imaging Library) module to load and manipulate images.
 
-Python: You need to have Python installed on your computer. You can download Python from python.org.
+## Features
+- Select a character from the available character images.
+- Choose an outfit, hairstyle, and accessory to dress up the selected character.
+- View the combined result of the character with the selected outfit, hairstyle, and accessory.
+- Reset selections made by the user.
+- Quit the application.
 
-Pillow (PIL Fork): The Dress Up App relies on the Pillow library (a fork of the Python Imaging Library, or PIL) for image processing. You can install Pillow using pip with the following command:
+## Usage
+1. **Character Selection**: Upon running the application, the user can select a character from the available character images. Characters are displayed with their corresponding index numbers.
+2. **Outfit Selection**: After selecting a character, the user can choose an outfit for the character from the available outfit images.
+3. **Hairstyle Selection**: Once an outfit is selected, the user can choose a hairstyle for the character from the available hairstyle images.
+4. **Accessory Selection**: After selecting a hairstyle, the user can choose an accessory for the character from the available accessory images.
+5. **View Selections**: The user can apply all selections and view the combined result of the character with the chosen outfit, hairstyle, and accessory.
+6. **Reset Selections**: If desired, the user can reset all selections made and start over.
+7. **Quit**: At any point, the user can choose to quit the application.
 
-pip install pillow
+## Requirements
+- Python 3.x
+- PIL (Python Imaging Library)
 
-Getting Started
+## Installation
+1. Clone the repository: `git clone https://github.com/your/repository.git`
+2. Navigate to the project directory.
+3. Install the required packages: `pip install -r requirements.txt`
+4. Run the application: `python dress_up_app.py`
 
-Organize your character images, outfit images, hairstyle images, and accessory images into separate folders. The default folder names used in the code are "characters," "outfits," "hairstyles," and "accessories." You can customize these folder names as needed.
+## Folder Structure
+- `characters`: Contains images of characters.
+- `outfits`: Contains images of outfits.
+- `hairstyles`: Contains images of hairstyles.
+- `accessories`: Contains images of accessories.
 
-Place the image files in their respective folders. The Dress Up App expects image files with the following extensions: ".png," ".jpg," ".jpeg," and ".gif." Make sure your image files match these extensions.
+## Notes
+- Ensure that all image files have valid extensions (e.g., `.png`, `.jpg`, `.jpeg`, `.gif`) and are placed in the corresponding folders.
+- Characters, outfits, hairstyles, and accessories are displayed with their filenames (excluding extensions) for selection.
+- Use the numeric keypad to enter the index numbers for selection.
 
-Open the command prompt or terminal on your computer and navigate to the directory where you saved the Dress Up App code.
-
-Running the Dress Up App
-To run the Dress Up App, follow these steps:
-
-In the command prompt or terminal, navigate to the directory containing the Dress Up App code.
-
-Run the app by executing the following command:
-
-python dressup.py
-
-The Dress Up App will start, and you'll see a menu with several options. Follow the on-screen instructions to interact with the app.
-
-Using the Dress Up App
-The Dress Up App provides the following functionality:
-
-Select a Character (Option 1): Choose a character from the available character images. The app will display a list of character options, and you can select a character by entering the corresponding number.
-
-Dress Up with an Outfit (Option 2): Select an outfit for the chosen character. The app will display a list of available outfits, and you can choose one by entering the corresponding number.
-
-Choose a Hairstyle (Option 3): Pick a hairstyle for the character. The app will present a list of available hairstyles, and you can make a selection by entering the corresponding number.
-
-Choose an Accessory (Option 4): Add an accessory to the character's look. You can select from a list of available accessories by entering the corresponding number.
-
-Apply Selections and View (Option 5): See the character with the selected outfit, hairstyle, and accessory. The app will display the dressed-up character.
-
-Quit (Option 6): Exit the Dress Up App.
-
-Follow the on-screen prompts and make selections as you desire. You can dress up characters with various combinations of outfits, hairstyles, and accessories.
-
-Troubleshooting
-If you encounter any issues or errors while running the Dress Up App, please check the following:
-
-Ensure that your image files are in the correct folders and have the supported file extensions: ".png," ".jpg," ".jpeg," and ".gif."
-
-Verify that you have installed the Pillow library using pip install pillow.
-
-Feedback and Support
-If you have feedback or need support while using the Dress Up App, feel free to reach out to the developer.
-
-Happy dressing up your characters with the Dress Up App!
-
-
+## License
+This project is licensed under the [MIT License](LICENSE).
 
 
 
